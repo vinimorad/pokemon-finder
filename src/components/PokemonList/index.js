@@ -25,14 +25,13 @@ export const PokemonList = () => {
   return (
     <div className="container">
       <div className="row justify-content-center mt-5">
-        <div className="col-3 text-center">
+        <div className="col-4 text-center">
           <h2 className="mb-4">Pokemon List</h2>
           <div>
             <Form>
               <Form.Group className="mb-3 ">
                 <Form.Control
                   className="shadow-none"
-                  style={{width: 400}}
                   type="text"
                   placeholder="Search for a name or national registration"
                   value={value}
