@@ -24,8 +24,8 @@ export const PokemonList = () => {
   }, []);
   return (
     <div className="container">
-      <div className="row justify-content-center mt-5">
-        <div className="col-4 text-center">
+      <div className="row justify-content-center my-5">
+        <div className="col-12 col-lg-4 text-center">
           <h2 className="mb-4">Pokemon List</h2>
           <div>
             <Form>
@@ -52,10 +52,10 @@ export const PokemonList = () => {
 						return pokemon;
 				}}).map((item, id) => {
           return (
-            <div className="col-3 mb-2" key={id}>
-              <Card className="mb-3 h-100">
+            <div className="col-lg-3 col-6 mb-3" key={id}>
+              <Card className=" h-100">
                 <Card.Img
-                  style={{ maxHeight: 200 }}
+                  style={{ maxHeight: 200, objectFit: 'cover' }}
                   variant="top"
                   alt={item.name}
                   src={item.sprites.large}
