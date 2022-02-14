@@ -14,7 +14,7 @@ Com a utilização do **React** e uma **API**, foi desenvolvido uma lista de pok
 - Baixar um editor de texto para executar os codigos como [VSCode](https://code.visualstudio.com/);
 - Após o editor de texto aberto rodar no console <code>yarn</code> ou <code>npm install</code> para instalar todas as dependencias.
 
-### 🎲 Rodando o Front End (servidor)
+### 🎲 Rodando o Front End
 ```bash
 # Clone este repositório
 $ git clone https://github.com/vinimovich/pokemon-finder.git
