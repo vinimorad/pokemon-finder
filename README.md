@@ -31,4 +31,4 @@ $ npm start
 ## 📝 Licença
 Este projeto esta sobe a licença [MIT]().
 
-[Entre em contato](https://www.linkedin.com/in/vinimovich/) 👋🏽
+[Entre em contato](https://www.linkedin.com/in/vinimovich/) 👋🏽 
